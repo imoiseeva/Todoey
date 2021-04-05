@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F82A758260B46AA0069EF5C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82A757260B46AA0069EF5C /* Task.swift */; };
+		5F8AEAEC2609DFA2008687D1 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AEAEB2609DFA2008687D1 /* StorageManager.swift */; };
 		5F8CCA9625FE154F00DA358A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9525FE154F00DA358A /* AppDelegate.swift */; };
 		5F8CCA9825FE154F00DA358A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9725FE154F00DA358A /* SceneDelegate.swift */; };
-		5F8CCA9A25FE154F00DA358A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9925FE154F00DA358A /* ViewController.swift */; };
+		5F8CCA9A25FE154F00DA358A /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9925FE154F00DA358A /* TodoListViewController.swift */; };
 		5F8CCA9D25FE154F00DA358A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9B25FE154F00DA358A /* Main.storyboard */; };
 		5F8CCA9F25FE155100DA358A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CCA9E25FE155100DA358A /* Assets.xcassets */; };
 		5F8CCAA225FE155100DA358A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CCAA025FE155100DA358A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F82A757260B46AA0069EF5C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5F8AEAEB2609DFA2008687D1 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		5F8CCA9225FE154F00DA358A /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8CCA9525FE154F00DA358A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8CCA9725FE154F00DA358A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F8CCA9925FE154F00DA358A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F8CCA9925FE154F00DA358A /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		5F8CCA9C25FE154F00DA358A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F8CCA9E25FE155100DA358A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F8CCAA125FE155100DA358A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				5F8CCA9525FE154F00DA358A /* AppDelegate.swift */,
 				5F8CCA9725FE154F00DA358A /* SceneDelegate.swift */,
-				5F8CCA9925FE154F00DA358A /* ViewController.swift */,
+				5F8CCA9925FE154F00DA358A /* TodoListViewController.swift */,
+				5F82A757260B46AA0069EF5C /* Task.swift */,
+				5F8AEAEB2609DFA2008687D1 /* StorageManager.swift */,
 				5F8CCA9B25FE154F00DA358A /* Main.storyboard */,
 				5F8CCA9E25FE155100DA358A /* Assets.xcassets */,
 				5F8CCAA025FE155100DA358A /* LaunchScreen.storyboard */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8CCA9A25FE154F00DA358A /* ViewController.swift in Sources */,
+				5F8CCA9A25FE154F00DA358A /* TodoListViewController.swift in Sources */,
 				5F8CCA9625FE154F00DA358A /* AppDelegate.swift in Sources */,
+				5F82A758260B46AA0069EF5C /* Task.swift in Sources */,
 				5F8CCA9825FE154F00DA358A /* SceneDelegate.swift in Sources */,
+				5F8AEAEC2609DFA2008687D1 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TP3LST57;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TP3LST57;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
